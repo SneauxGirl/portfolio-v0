@@ -9,6 +9,7 @@ body {
 
 .header {
     position: fixed;
+    top: 0;
     width: 100%;
     z-index: 2;
     background-color: white;
@@ -81,3 +82,20 @@ body {
 .header__nav-item--github a:hover {
     opacity: 0.5;
 }
+
+/* Intro */
+.intro__title {
+    font-size: 24px;
+    color: #333;
+    margin-top: 125px;
+    margin-bottom: 0;
+    padding: 0 10px;
+}
+
+.intro__subtitle {
+    font-size: 24px;
+    font-weight: normal;
+    color: #333;
+    padding: 0 20px;
+}
+
