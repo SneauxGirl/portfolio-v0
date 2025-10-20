@@ -21,6 +21,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 20px 0 0;
 }
 
 .container {
@@ -149,7 +150,6 @@ body {
 
 .gallery__image-container:hover {
     transform: scale(1.05);
-
 }
 
 .gallery__item-info {
