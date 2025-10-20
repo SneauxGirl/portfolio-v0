@@ -54,15 +54,6 @@ body {
     margin-left: 20px;
 }
 
-.header__nav-link {
-    text-decoration: none;
-    color: black;
-}
-
-.header__nav-link:hover {
-    text-decoration: underline;
-}
-
 .header__nav-item.header__nav-item--contact a {
     background: black;
     color: white;
@@ -74,6 +65,14 @@ body {
 .header__nav-item.header__nav-item--contact a:hover {
     text-decoration: none;
     opacity: 0.5;
+}
+.header__nav-link {
+    text-decoration: none;
+    color: black;
+}
+
+.header__nav-link:hover {
+    text-decoration: underline;
 }
 
 .header__nav-item--github a {
@@ -109,7 +108,7 @@ body {
 
 /* INTRO */
 .intro__title {
-    font-size: 24px;
+    font-size: 44px;
     color: #333;
     margin-top: 125px;
     margin-bottom: 0;
