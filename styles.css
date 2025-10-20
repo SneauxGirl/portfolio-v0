@@ -182,3 +182,21 @@ body {
         opacity: 1;
     }
 }
+
+/* CONTACT */
+
+.contact {
+    padding: 150px 0 300px 0;
+    text-align: center;
+}
+
+.contact__title {
+    font-size: 36px;
+    color: #333;
+}
+
+.contact__description {
+    font-size: 18px;
+    columns: #666;
+    margin-top: 10px;
+}
