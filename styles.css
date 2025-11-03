@@ -31,7 +31,8 @@ body {
 
 .header__title {
     display: inline-block;
-    font-size: 24px;
+    font-size: 32px;
+    color: #70035c;
     width: 100%;
     margin: 0;
 }
@@ -64,7 +65,8 @@ body {
 
 .header__nav-item.header__nav-item--contact a:hover {
     text-decoration: none;
-    opacity: 0.5;
+    background: #70035c;
+    opacity: 0.9;
 }
 .header__nav-link {
     text-decoration: none;
@@ -73,6 +75,8 @@ body {
 
 .header__nav-link:hover {
     text-decoration: underline;
+    opacity: 0.9;
+    color: #70035c;
 }
 
 .header__nav-item--github a {
@@ -80,7 +84,8 @@ body {
 }
 
 .header__nav-item--github a:hover {
-    opacity: 0.5;
+    opacity: 0.9;
+    color: #70035c;
 }
 
 /* MEDIA QUERIES for Header mobile responsiveness*/
@@ -218,7 +223,7 @@ body {
 }
 
 .contact__description {
-    font-size: 18px;
+    font-size: 1.2rem;
     columns: #666;
     margin-top: 10px;
 }
